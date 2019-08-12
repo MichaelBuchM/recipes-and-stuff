@@ -1,0 +1,19 @@
+extends default
+
+block content
+    h1= title
+    form(name="add-new-recipe", method="post", action="/recipes-and-stuff/addnew")
+        div.input
+            span.label Name
+            input(type="text", name="name")
+        div.input
+            span.label Category
+            input(type="text", name="category")
+        div.input
+            span.label Description
+            textarea(name="description", cols="40", rows="20")
+        div.input
+            span.label Image
+            input#file(type='file',name='photo', accept='image/*')
+        div.actions
+            input(type="submit", value="add")

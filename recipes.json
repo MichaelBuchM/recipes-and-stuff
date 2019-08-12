@@ -1,0 +1,46 @@
+{
+  "recipes": [
+    {
+      "name": "Tacos",
+      "description":
+              "Peel onions, and do the rest of the stuff",
+      "imgSrc": "tacos.jpg",
+      "id": "tacos"
+    },
+    {
+      "name": "Burritos",
+      "description":
+      "Peel onions, and do the rest of the stuff",
+      "imgSrc": "burritos.jpg",
+      "id": "burritos"
+    },
+    {
+      "name": "Fajitas",
+      "description":
+      "Peel onions, and do the rest of the stuff",
+      "imgSrc": "fajitas.jpg",
+      "id": "fajitas"
+    },
+    {
+      "name": "Enchiladas",
+      "description":
+      "Peel onions, and do the rest of the stuff",
+      "imgSrc": "enchiladas.jpg",
+      "id": "enchiladas"
+    },
+    {
+      "name": "Chimichangas",
+      "description":
+      "Peel onions, and do the rest of the stuff",
+      "imgSrc": "chimichangas.jpg",
+      "id": "chimichangas"
+    },
+    {
+      "name": "Nachos",
+      "description":
+      "Peel onions, and do the rest of the stuff",
+      "imgSrc": "nachos.jpg",
+      "id": "nachos"
+    }
+  ]
+}

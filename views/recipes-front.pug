@@ -1,0 +1,13 @@
+extends default
+
+block content
+    div.container
+        each recipe in recipes
+            div.recipes
+                div.recipes-image(style=`background: url('/recipes-and-stuff/images/${recipe.imgSrc}') top center
+                no-repeat; background-size: cover;`)
+                h2.recipes-name
+                    | #{recipe.name}
+                a(href=`/recipes-and-stuff/recipe?id=${recipe.id}`)
+                    | Se opskrift
+
