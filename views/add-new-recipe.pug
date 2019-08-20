@@ -2,18 +2,22 @@ extends default
 
 block content
     h1= title
-    form(name="add-new-recipe", method="post", action="/recipes-and-stuff/addnew")
-        div.input
+    form(name="add-new-recipe", method="post", enctype="multipart/form-data", action="/recipes-and-stuff/addnew")
+        div.input-add-new-rec
             span.label Name
             input(type="text", name="name")
-        div.input
-            span.label Category
-            input(type="text", name="category")
-        div.input
+        div.select
+            span.label-cat Category
+            select.select-add-new-recipe(name='category')
+                option(value='' selected=!category.category) (Select Category)
+                each cat in category
+                    option(value=cat.name selected=(cat.id === category.id)) #{cat.name}
+        div.input-add-new-rec
             span.label Description
             textarea(name="description", cols="40", rows="20")
-        div.input
+        div.input-add-new-rec
             span.label Image
             input#file(type='file',name='photo', accept='image/*')
         div.actions
-            input(type="submit", value="add")
+            input(type="submit", value="Add New Recipe" style="position: relative; left: 170px; " +
+            "border-radius: 5px")

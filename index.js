@@ -17,7 +17,6 @@ app.use(express.static(__dirname + '/public'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
 app.use('/', require('./routes/login'));
 app.use('/health', require('./routes/health'));
 app.use('/recipes-and-stuff', require('./routes/recipes-and-stuff'));

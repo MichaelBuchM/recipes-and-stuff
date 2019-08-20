@@ -48,6 +48,7 @@ body {
   /*margin-left: -500px;*/
   text-align: center;
   height: 200px;
+  /*background: url(../images/background.jpg) no-repeat center;*/
   background: url(../images/background.jpg) no-repeat center;
   /*background-color: #7fdaf4;*/
   color: #26a5ff;
@@ -98,7 +99,7 @@ body {
   border-top-right-radius: 0;
 }
 
-/* Form group
+/* Add new recipe form
    ========================================================================== */
 .form-group {
   display: flex;
@@ -109,11 +110,51 @@ body {
 }
 
 
+.input-add-new-rec {
+  width: 100%;
+  position: relative;
+  left: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+.label {
+  position: relative;
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 150px;
+  text-align: right;
+  color: ghostwhite;
+}
+
+.label-cat {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 190px;
+  text-align: right;
+  color: ghostwhite;
+}
+
+.select-add-new-recipe {
+  position: relative;
+  /*left: 20px;*/
+  width: 170px;
+}
+
 /* Recipes Card
    ========================================================================== */
 
 .recipes {
   text-align: center;
+}
+
+.recipes-name {
+  text-align: center;
+  background-color: ghostwhite;
 }
 
 .recipes > * {
@@ -173,4 +214,22 @@ body {
   color: #FFFFFF;
   background-color: #659AF1;
   border-radius: 5px;
+}
+
+.button-add-new-recipe {
+  color: #FFFFFF;
+  background-color: #26a5ff;
+  border-radius: 5px;
+}
+
+.button-add-new-recipe-add {
+  color: #FFFFFF;
+  background-color: #26a5ff;
+  border-radius: 5px;
+  float: left;
+  clear: left;
+  position: relative;
+  left: 170px;
+  /*width: 150px;*/
+  text-align: right;
 }

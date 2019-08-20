@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Amerikansk",
+      "id": "amerikansk"
+    },
+    {
+      "name": "Mexicansk",
+      "id": "mexicansk"
+    },
+    {
+      "name": "Italiensk",
+      "id": "italiensk"
+    },
+    {
+      "name": "Asiatisk",
+      "id": "asiatisk"
+    },
+    {
+      "name": "Dansk",
+      "id": "dansk"
+    },
+    {
+      "name": "Hurtig",
+      "id": "hutig"
+    },
+    {
+      "name": "Trykkoger",
+      "id": "trykkoger"
+    },
+    {
+      "name": "Bagning",
+      "id": "bagning"
+    },
+    {
+      "name": "Kage",
+      "id": "kage"
+    }
+  ]
+}

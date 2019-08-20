@@ -1,6 +1,8 @@
 extends default
 
 block content
+    a.button-add-new-recipe(href=`/recipes-and-stuff/addnew`)
+        | Add New Recipe
     div.container
         each recipe in recipes
             div.recipes
@@ -8,6 +10,5 @@ block content
                 no-repeat; background-size: cover;`)
                 h2.recipes-name
                     | #{recipe.name}
-                a(href=`/recipes-and-stuff/recipe?id=${recipe.id}`)
+                a(href=`/recipes-and-stuff/recipe?id=${recipe.id}` style="color:ghostwhite")
                     | Se opskrift
-
